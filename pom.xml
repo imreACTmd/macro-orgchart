@@ -42,6 +42,19 @@
       <organization>XWiki SAS</organization>
     </developer>
   </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.webjars.npm</groupId>
+      <artifactId>orgchart</artifactId>
+      <version>2.0.4</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.webjars.npm</groupId>
+          <artifactId>jquery</artifactId>
+        </exclusion>
+      </exclusions> 
+    </dependency>
+  </dependencies>
   <scm>
     <connection>scm:git:git://github.com/xwiki-contrib/macro-orgchart.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-contrib/macro-orgchart.git</developerConnection>
