@@ -31,7 +31,7 @@
   </parent>
   <groupId>org.xwiki.contrib</groupId>
   <artifactId>macro-orgchart</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2-SNAPSHOT</version>
   <packaging>xar</packaging>
   <name>Organizational Chart Macro</name>
   <description>Displays an organizational chart from list, json or xwiki data.</description>
@@ -59,7 +59,7 @@
     <connection>scm:git:git://github.com/xwiki-contrib/macro-orgchart.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-contrib/macro-orgchart.git</developerConnection>
     <url>https://github.com/xwiki-contrib/macro-orgchart</url>
-    <tag>macro-orgchart-1.0.1</tag>
+    <tag>HEAD</tag>
   </scm>
   <build>
     <extensions>
